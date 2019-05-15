@@ -13,8 +13,8 @@ public class Main {
         phoneBook.add("Кузя", "+78417857963");
 
 
-        String name = "Вова"; // кого найти?
+        String name = "Кузя"; // кого найти?
 
-        System.out.println(" У " + name + " номера: " + phoneBook.get(name));
+        System.out.println(" У  имя: '" + name + "' номера: " + phoneBook.get(name));
     }
 }

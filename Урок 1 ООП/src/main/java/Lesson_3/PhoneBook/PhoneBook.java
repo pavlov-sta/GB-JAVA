@@ -1,16 +1,16 @@
 package Lesson_3.PhoneBook;
 
-import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 
 public class PhoneBook {
-    private HashMap<String, ArrayList<String>> phoneBook = new HashMap<String, ArrayList<String>>();
+    private HashMap<String, HashSet<String>> phoneBook = new HashMap<String, HashSet<String>>();
 
     public void add(String name, String phone) {
 
-        ArrayList<String> phoneArr = phoneBook.get(name);
+        HashSet<String> phoneArr = phoneBook.get(name);
         if (phoneArr == null) {
-            phoneArr = new ArrayList<String>();
+            phoneArr = new HashSet<String>();
         }
 
         phoneArr.add(phone);
@@ -18,7 +18,7 @@ public class PhoneBook {
 
     }
 
-    public ArrayList<String> get(String name) {
+    public HashSet<String> get(String name) {
         return phoneBook.get(name);
     }
 }

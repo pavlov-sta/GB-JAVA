@@ -17,15 +17,16 @@ public class Passwords {
 
         String passwords = "1asAAAZXA+=g824nm$@/"; // введите пароль
 
-        if (passwordCheck(passwords)) {
-            System.out.println("Password matches.");
-        } else {
-            System.out.println("Password does not match.");
-        }
+        System.out.println(passwordCheck(passwords));
     }
 
-    public static boolean passwordCheck(String passwords){
+    public static String passwordCheck(String passwords){ // метод для проверки пароля
         String regexp ="(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\\S+$).{8,20}";
-        return Pattern.matches(regexp, passwords);
+        String result = "Password matches.";
+
+        if (!Pattern.matches(regexp, passwords)) {
+            result = "Password does not match.";
+        }
+        return result;
     }
 }
