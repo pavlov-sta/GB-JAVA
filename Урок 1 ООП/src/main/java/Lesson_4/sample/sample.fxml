@@ -9,9 +9,9 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
-<?scenebuilder-stylesheet /css/Styles.css?>
+<?scenebuilder-stylesheet /Lesson_4//css/Styles.css?>
 
-<AnchorPane prefHeight="320.0" prefWidth="295.0" style="-fx-background-image: url('img/background.jpg');" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane prefHeight="320.0" prefWidth="295.0" style="-fx-background-image: url('img/background.jpg');" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Lesson_4.sample.Controller">
    <children>
       <Label fx:id="label" contentDisplay="CENTER" layoutX="111.0" text="Chat" textAlignment="CENTER">
          <font>
@@ -22,7 +22,7 @@
 
       <VBox alignment="center" layoutX="5.0" layoutY="59.0" prefHeight="255.0" prefWidth="290.0">
          <stylesheets>
-            <URL value="@/css/Styles.css" />
+            <URL value="@/Lesson_4/css/Styles.css" />
          </stylesheets>
          <children>
             <TextArea fx:id="textArea" editable="false" VBox.vgrow="ALWAYS" />
