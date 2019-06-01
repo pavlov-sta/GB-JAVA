@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eab5f5a6-50dd-490e-ab7c-4a156f0edef5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_4/.idea/Lesson_4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_4/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_4/css/Styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_4/img/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_4/javaFX_lesson_4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_4/sample/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_4/sample/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_4/sample/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24042019.iml" beforeDir="false" afterPath="$PROJECT_DIR$/24042019.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Marathon/Obstrances/B.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Marathon/Obstrances/T.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../26052019_chat_new/src/Lesson_6/Server/StartServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -167,33 +152,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="java_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Урок 1 ООП" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Урок 1 ООП" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Урок 1 ООП" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Урок 1 ООП" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="java_2" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -202,6 +164,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -328,9 +291,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13113007" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13219616" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
